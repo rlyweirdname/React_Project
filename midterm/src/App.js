@@ -9,7 +9,7 @@ function App() {
     <ColorsModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <div className="App">
+        <div className="app">
           <main className="content">
             <Topbar />
           </main>
