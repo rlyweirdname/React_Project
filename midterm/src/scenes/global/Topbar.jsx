@@ -14,7 +14,7 @@ const Topbar = () => {
   const colors = tokens(theme.palette.mode);
   const colorsMode = useContext(ColorsModeContext);
 
-  return;
+  return(
   <Box display={"flex"} justifyContent="space-between" p={2}>
     {/* Search bar */}
     <Box
@@ -47,7 +47,7 @@ const Topbar = () => {
         <PersonOutlinedIcon />
       </IconButton>
     </Box>
-  </Box>;
+  </Box>);
 };
 
 export default Topbar;
